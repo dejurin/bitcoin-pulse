@@ -1,8 +1,14 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useVisibleTask$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 import BitcoinParadise from "~/components/img/bitcoin-paradise.webp";
 
 export default component$(() => {
+  // eslint-disable-next-line qwik/no-use-visible-task
+  useVisibleTask$(({ cleanup }) => {
+    const id = setTimeout(() => window.location.reload(), 60000);
+    cleanup(() => clearTimeout(id));
+  });
+
   return (
     <section class="relative md:-mt-[76px] not-prose">
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:w-2/3">
