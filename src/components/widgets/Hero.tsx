@@ -34,12 +34,14 @@ export default component$(() => {
                 ></script>
               </div>
               <div class="py-4">
-                <span class="sm:whitespace-nowrap text-[#6366f1] font-semibold">
+                <a href="https://btc.currencyrate.today/usd" target="_blank" rel="noopener">
+                  <span class="sm:whitespace-nowrap text-[#6366f1] font-semibold">
                   CurrencyRate
                 </span>
                 <span class="sm:whitespace-nowrap text-[#4f46e5] font-semibold">
                   .Today
                 </span>
+                </a>
               </div>
             </div>
           </div>
