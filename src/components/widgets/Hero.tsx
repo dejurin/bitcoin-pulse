@@ -5,7 +5,7 @@ import BitcoinParadise from "~/components/img/bitcoin-paradise.webp";
 export default component$(() => {
   return (
     <section class="relative md:-mt-[76px] not-prose">
-      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 w-2/3">
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:w-2/3">
         <div class="pt-0 pointer-events-none"></div>
         <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
           <div class="basis-1/2 text-center lg:text-left mx-auto">
