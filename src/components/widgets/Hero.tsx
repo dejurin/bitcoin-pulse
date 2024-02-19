@@ -15,8 +15,8 @@ export default component$(() => {
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <div
-                class="w-4/2 rounded-xl border"
-                style="background-color: #4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);"
+                class="w-4/2 rounded-xl border font-semibold font-mono"
+                style="background-color: #4158D0;background-image: linear-gradient(45deg, #039de1 0%, #C850C0 36%, #4158D0 100%);"
               >
                 <crypto-converter-widget
                   shadow
