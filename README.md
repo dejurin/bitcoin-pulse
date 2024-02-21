@@ -1,2 +1,5 @@
-# bitcoin-pulse
- website with bitcoin price live widget
+# Bitcoin-pulse
+Website with bitcoin price live widget
+
+# Widget
+https://co-w.io/
