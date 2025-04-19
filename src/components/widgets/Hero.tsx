@@ -36,7 +36,7 @@ export default component$(() => {
                 ></crypto-converter-widget>
                 <script
                   async
-                  src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@1.5.2/dist/latest.min.js"
+                  src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget@latest/dist/latest.min.js"
                 ></script>
               </div>
               <div class="py-4">
