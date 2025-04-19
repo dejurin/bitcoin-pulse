@@ -27,12 +27,13 @@ export default component$(() => {
                 <crypto-converter-widget
                   shadow
                   symbol
-                  live
-                  background-color="transparent"
-                  fiat="united-states-dollar"
-                  crypto="bitcoin"
+                  theme="auto"
+                  background="linear-gradient(120deg,#8E2DE2,#4A00E0)"
+                  background-color="#8E2DE2"
+                  fiat="USD"
+                  crypto="BTC"
                   amount="1"
-                  decimal-places="2"
+                  decimal="4"
                 ></crypto-converter-widget>
                 <script
                   async
